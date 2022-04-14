@@ -1,0 +1,13 @@
+#main {
+  background-image: url("./img/main.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+.main-name {
+  color: #9CC4B0;
+}
+
+.main-title {
+  color: #D8D8D8;
+}

@@ -4,10 +4,53 @@
   height: 500px;
 }
 
-.main-name {
+.light-green {
   color: #9CC4B0;
+}
+
+.light-green-background {
+  background-color: #9CC4B0;
 }
 
 .main-title {
   color: #D8D8D8;
+}
+
+.footer-text {
+  text-decoration: none;
+}
+
+.footer-text:hover {
+  text-decoration: underline;
+}
+
+.email-form {
+  width: 100%;
+}
+
+.message-box {
+  width: 95%;
+}
+
+@media (min-width: 750px) {
+  #main {
+    height: 1200px;
+  }
+
+}
+
+@media (min-width: 990px) {
+  #projects {
+    height: 1400px;
+  }
+
+  .projects-grid {
+    margin-top: 250px;  
+  }
+}
+
+@media (max-width: 810px) {
+  .contact-form {
+    width: 100%;
+  }
 }
